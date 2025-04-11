@@ -6,9 +6,8 @@ title: "Workshop Live Demo/ Revision"
 ```{python}
 import pandas as pd
 import numpy as np
-import ibis
 
-sw = ibis.examples.starwars.fetch().to_pandas()
+sw_raw = pd.read_csv("https://raw.githubusercontent.com/the-graph-courses/misc_public/refs/heads/main/starwars.csv")
 ```
 
 ```{python}
